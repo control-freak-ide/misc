@@ -14,4 +14,11 @@
  - robustPlanarPose
  - rpp_float
  - rpp_vec
- 
+
+## Operations
+
+- paramDecomp
+- paramDecompMat
+- norm
+- dot
+- interpolate
