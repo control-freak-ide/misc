@@ -48,7 +48,7 @@ We keep 'files' as default and primary storage for everything but we do add adap
 
 ## Machine Learning system
 
-We do introduce finally a deep learning system which acts adhoc wise on the system-bus. It can be trained and is there to provide  the machine facilitator. It consumes a user meta (scoring) context, commands, interactive documentation and content meta information as inputs. 
+We do introduce finally a deep learning system which acts adhoc wise on the system-bus. It can be trained and is there to provide  the machine facilitator. It consumes user meta (score -> weights) context, commands, interactive documentation and content meta information as inputs. 
 
 <hr/>
 
