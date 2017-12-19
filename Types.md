@@ -42,3 +42,7 @@ A list of general public types & structures in CFv3
 ## Capabilities
 
 ## Event
+
+## Surface
+
+temp. type to express an abstract projection between spaces

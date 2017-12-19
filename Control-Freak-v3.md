@@ -53,7 +53,7 @@ We do introduce finally a deep learning system which acts adhoc wise on the syst
 
 ## Interfaces
 
-General note: This version will return to the initial platform requirements in regard of US gov. and european regulations. We will support disabled people with voice over caps., high contrast switches but also alternative keyboard methods. We will also make excessive use of the browser's accessibilty API's (no known fallbacks). Furthermore, VR renderers will become a first citizen.
+General note: This version will return to the initial platform requirements in regard of US gov. and european regulations. We will support disabled people with voice over caps., high contrast switches but also alternative keyboard methods. We will also make excessive use of the browser's accessibility APIs (no known fallbacks). Furthermore, VR renderers will become a first citizen.
 
 Finally,
 
