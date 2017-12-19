@@ -36,7 +36,7 @@ Class CFMaterial Color and texture settings for objects.
  
 Class CFMesh Representation of the geometry of a 3D object
  
-Class CFPatchMesh Representation of the geometry of a 3Dobject using bezier patches.
+Class CFPatchMesh Representation of the geometry of a 3D object using bezier patches.
  
 Class CFPlace Group of 3D entities.
  
