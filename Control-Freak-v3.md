@@ -44,7 +44,7 @@
 
 ## Storage
 
-We keep 'files' as default and primary storage for everything but we do add adapters for databases and version control systems. Each storage system has to provide minimum set of features: versioning, branching,... The user has to be warned that a storage system's  may not be present on certain platforms (ie: mysql in chrome)
+We keep 'files' as default and primary storage for everything but we do add adapters for databases and version control systems. Each storage system has to provide minimum set of features: versioning, branching,... The user has to be warned that a storage system's  may not be present on certain platforms (ie: mysql in chrome) and thus commercial services should be offered to fullfil exports/bundlings.
 
 ## Machine Learning system
 
