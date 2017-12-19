@@ -7,13 +7,14 @@
 - Types 
 - Commands 
 - Parameter Operations [Type-Types]
-- Signals [RUN | STOP | RESUME | STOPPED | LOAD | UNLOAD | SUSPEND | STORE]
+- Signals [RUN | STOP | RESUME | STOPPED | LOAD | UNLOAD | SUSPEND | STORE | ERRORS]
+- Statics (introspect, ...)
 
 ### Supports
 
 - Platform {Mask}
 - Stores [Components]
-- Signals [RUN | STOP | RESUME | STOPPED | LOAD | UNLOAD | SUSPEND | STORE]
+- Signals [RUN | STOP | RESUME | STOPPED | LOAD | UNLOAD | SUSPEND | STORE | ERRORS]
 - Parameter Operations [Type-Types]
 - Commands
 - Types
