@@ -19,11 +19,11 @@
 
 ### Settings
 
-- we will finally introduce user ACLs (permissions) per command/settings which control the visibility in a component or 'vertical'
-- settings can be inherited from a parent's scope (defaults from a 'vertical'). 
-- we will keep & extend the model of scopes (project, workspace & system)
-- a user can set & reset defaults per settings & scope. this will be done per popups
-- the user's capability to change settings is controlled by the ACL's of a vertical or component's defaults
+- we will finally introduce user ACLs (permissions) per command/settings which control the visibility in a component or 'vertical'.
+- settings can be inherited from a parent's scope (defaults from a 'vertical').
+- we will keep & extend the model of scopes (project, workspace & system).
+- a user can set & reset defaults per settings & scope. this will be done per popups.
+- the user's capability to change settings is controlled by the ACL's of a vertical or component's defaults.
 - settings are adaptive and their usage is tracked in a meta-database and is being consumed/controlled by an optional event bus (scoring components)
 - A user settings or variables can be exposed/flagged by the user
 - A user can expose his configuration as new 'vertical' and make it subject to the vertical library (user compositions of components and settings)
@@ -32,7 +32,7 @@
 ### Component Layout
 
 - we will extend actions for component layouts and make them accessible as 'perspectives'
-- users may remove components or parts (in the vertical admin/design mode)
+- users may remove components or parts (in the vertical's admin/design mode)
 
 ## XBlox
 
@@ -40,16 +40,19 @@
 
 ## Documentation / Support
 
-- a human or machine Facilitator can suggest/play commands at any time
+- a human or machine facilitator can suggest/play commands at any time
 
 ## Storage
 
 We keep 'files' as default and primary storage for everything but we do add adapters for databases and version control systems. Each storage system has to provide minimum set of features: versioning, branching,... The user has to be warned that a storage system's  may not be present on certain platforms (ie: mysql in chrome)
 
+## Machine Learning system
 
+We do introduce finally a deep learning system which acts adhoc wise on the system-bus. It can be trained and is there to provide  the machine facilitator. It consumes a context, commands, interactive documentation and content meta information as inputs. 
 
+<hr/>
 
-
+That's it for now. Specifics will be outlined in the new 'CF Platform Software Functional Specifications' & 'CF-Platform Features Summary' - V3.1 document.
 
 
 
