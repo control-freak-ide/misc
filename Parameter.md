@@ -16,10 +16,9 @@ Method *GetCFContext* Returns a pointer to the owner CFContext
 Method *GetClassID* Returns the Class Identifier for this object
  
 Method *GetID* Returns the Identifier for this object
- 
 
+<hr/>
 Method GetMemoryOccupation Returns the size taken by this object and its data in memory. 
-Method SetUserDataDSL
 
 #### Owner
 
@@ -33,11 +32,11 @@ Method *GetGUID* Gets the GUID of the parameter type.
  
 Method *GetParameterClassID* Gets the Class ID of the parameter type.
  
-Method *GetType* Gets the parameter type
+Method *GetType* Gets the parameter type.
  
 Method *IsCompatibleWith* Checks whether given parameter is compatible with current parameter type.
  
-Method *SetType*  Changes the parameter type
+Method *SetType*  Changes the parameter type.
 
 #### IO
 
@@ -65,11 +64,11 @@ Method *GetRealSource* Returns the real source of data of the input parameter
  
 Method *GetSharedSource* returns the shared source of the input parameter.
  
-Method *GetType* Returns the type of the input parameter
+Method *GetType* Returns the type of the input parameter.
  
-Method *GetValue* Copies the input parameter's value into the given buffer
+Method *GetValue* Copies the input parameter's value into the given buffer.
  
-Method *SetUserDataDSL This function is the DSL binded version of CFObject::SetAppData above created at version=0x11042007 (cf. binding in Behaviors/VSLManager/DSL_ManagerBind_CK2.cpp)
+Method *SetUserDataDSL This function is the DSL binded version of CFObject::SetAppData above created at version=0x11042007 (cf. binding in Behaviors/DSLManager/DSL_ManagerBind_CK2.cpp)
  
 Method *SetDirectSource* Sets the new direct source for the input parameter.
  
