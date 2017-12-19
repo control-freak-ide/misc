@@ -28,5 +28,6 @@
 - diagnose (self)
 - inspect (object)
 - info (version, deps, ...)
+- signals (ie: a component as command)
 
 @TODO
