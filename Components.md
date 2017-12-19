@@ -4,9 +4,9 @@
 
 ### Provides 
 
-- Types 
+- Types
 - Commands 
-- Parameter Operations [Type-Types]
+- Parameter Operations [Type-Types:Type-Types]
 - Signals [RUN | STOP | RESUME | STOPPED | LOAD | UNLOAD | SUSPEND | STORE | ERRORS]
 - Statics (introspect, ...)
 
@@ -20,13 +20,20 @@
 - Types
 - Renderers [CLI|SPEECH|AR|VR|WEBKIT|TEXT|API|CUSTOM|CASCADE]
 
+### Emits | Consumes
+
+- Event[Type-Types]
+
 ## Protocols
+
+- Built-Ins
+- [Components]
 
 ## Statics
 
 - stats (object|self)
 - diagnose (self)
-- inspect (object)
+- inspect (object, type-type)
 - info (version, deps, ...)
 - signals (ie: a component as command)
 
