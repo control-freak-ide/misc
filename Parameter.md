@@ -97,12 +97,3 @@ Method *GetOperationGuid* Returns the GUID of the operation.
 Method *GetOutParameter* Accessing the output parameter of the operation.
  
 Method *Reconstruct* Reconstructs the operation.
- 
-
-
-
-
-
-
- 
-
