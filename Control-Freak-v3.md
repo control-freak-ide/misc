@@ -53,20 +53,16 @@ We do introduce finally a deep learning system which acts adhoc wise on the syst
 
 ## Interfaces
 
-General note: This version will return to the initial platform requirements in regard of US gov. and european regulations. We will support disabled people with voice over caps., high contrast switches but also alternative keyboard methods. Furthermore, VR renderers will become a first citizen. 
+General note: This version will return to the initial platform requirements in regard of US gov. and european regulations. We will support disabled people with voice over caps., high contrast switches but also alternative keyboard methods. We will also make excessive use of the browser's accessibilty API's (no known fallbacks). Furthermore, VR renderers will become a first citizen.
 
 Finally,
-new renderers on board as built-in : text-to-speech, VR, AR glasses, local & remote APIs
+
+New renderers on board as built-in : CLI, text-to-speech, VR, AR glasses, local & remote APIs
+
 New inputs: voice and gesture recognition, GPIO protocols, local & remote APIs
 
 <hr/>
 
 That's it for now. Specifics will be outlined in the new 'CF Platform Software Functional Specifications' & 'CF-Platform Features Summary' - V3.1 document.
-
-
-
-
-
-
 
 
