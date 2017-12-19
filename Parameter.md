@@ -1,4 +1,4 @@
-# 'Parameters'
+# Parameters
 
 - first citizen class
 - must be serializable
@@ -68,12 +68,20 @@ Method *GetType* Returns the type of the input parameter.
  
 Method *GetValue* Copies the input parameter's value into the given buffer.
  
-Method *SetUserDataDSL* This function is the DSL binded version of CFObject::SetAppData above created at version=0x11042007 (cf. binding in Behaviors/DSLManager/DSL_ManagerBind_CK2.cpp)
- 
 Method *SetDirectSource* Sets the new direct source for the input parameter.
  
 Method *ShareSourceWith* Shares the CFParameterIn with another one.
  
+### CFParameterOut
+
+Virtual Method *DataChanged* Forces the propagation of the data down the destination chain.
+ 
+Method *GetDestination* Returns the Nth destination parameter.
+ 
+Method *GetDestinationCount* Returns number of destination parameters.
+ 
+
+
 
 
 
