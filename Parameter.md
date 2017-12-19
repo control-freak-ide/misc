@@ -80,6 +80,23 @@ Method *GetDestination* Returns the Nth destination parameter.
  
 Method *GetDestinationCount* Returns number of destination parameters.
  
+### CFParameter­Operation
+
+Method *DoOperation* Forces the execution of an operation.
+ 
+Method *GetInParameter1* Accessing the first input parameter of the operation.
+ 
+Method *GetInParameter2* Accessing the second input parameter of the operation.
+
+Method *GetInParameterRest* Accessing the rest.
+ 
+Method *GetOperationGuid* Returns the GUID of the operation.
+ 
+Method *GetOutParameter* Accessing the output parameter of the operation.
+ 
+Method *Reconstruct* Reconstructs the operation.
+ 
+
 
 
 
