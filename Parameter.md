@@ -9,22 +9,22 @@
 
 #### Operations
 
-Method *CheckClass* Virtual added for Fixed Size parameter support
+Method *CheckClass* Virtual added for Fixed Size parameter support.
  
 Method *GetCFContext* Returns a pointer to the owner CFContext
  
-Method *GetClassID* Returns the Class Identifier for this object
+Method *GetClassID* Returns the Class Identifier for this object.
  
-Method *GetID* Returns the Identifier for this object
+Method *GetID* Returns the Identifier for this object.
 
 <hr/>
 Method *GetMemoryOccupation* Returns the size taken by this object and its data in memory. 
 
 #### Owner
 
-Method *GetOwner* Gets the owner of the output parameter
+Method *GetOwner* Gets the owner of the output parameter.
  
-Virtual *Method* SetOwner Sets the owner of the output parameter
+Virtual *Method* SetOwner Sets the owner of the output parameter.
 
 #### Parameter Type 
 
@@ -79,6 +79,8 @@ Virtual Method *DataChanged* Forces the propagation of the data down the destina
 Method *GetDestination* Returns the Nth destination parameter.
  
 Method *GetDestinationCount* Returns number of destination parameters.
+
+Method *GetWriteDataPtr* Returns a pointer to the data.
  
 ### CFParameter­Operation
 
