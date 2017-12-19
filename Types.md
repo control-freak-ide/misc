@@ -36,3 +36,9 @@ A list of general public types & structures in CFv3
 
 ## Spaces
 
+## Event
+
+- Local
+- Global
+
+

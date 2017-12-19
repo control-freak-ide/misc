@@ -1,8 +1,8 @@
 # Public
 
-### Outlets
+## Outlets ( introspection )
 
-#### Provides ( introspection )
+### Provides 
 
 - Types 
 - Commands 
@@ -17,8 +17,8 @@
 - Parameter Operations [Type-Types]
 - Commands
 - Types
-- Renderers [CLI|SPEECH|AR|VR|WEBKIT|TEXT|API]
+- Renderers [CLI|SPEECH|AR|VR|WEBKIT|TEXT|API|CUSTOM|CASCADE]
 
-### Protocols
+## Protocols
 
 @TODO
