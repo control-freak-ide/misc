@@ -18,6 +18,10 @@ A list of general public types & structures in CFv3
 - Settings
 - Flags
 
+## Behaviour
+
+## Behaviour-Graphs
+
 ## Parameter - Operation
 
 - In Type - 1 : Type-Type
