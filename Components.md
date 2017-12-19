@@ -22,4 +22,11 @@
 
 ## Protocols
 
+## Statics
+
+- stats (object|self)
+- diagnose (self)
+- inspect (object)
+- info (version, deps, ...)
+
 @TODO
