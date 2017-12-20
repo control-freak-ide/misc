@@ -2,10 +2,10 @@
 
 ## Outlets ( introspection )
 
-### Provides 
+### Provides
 
 - Types
-- Commands 
+- Commands
 - Parameter Operations [Type-Types:Type-Types]
 - Signals [RUN | STOP | RESUME | STOPPED | LOAD | UNLOAD | SUSPEND | STORE | ERRORS]
 - Statics (introspect, ...)

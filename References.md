@@ -3,7 +3,7 @@
 - http://www.nongnu.org/cybop/ (lang)
 - http://www.kybdr.de/software (tools)
 
-# AR 
+# AR
 
 hurray, it still stands! : https://www.artoolkit.org/
 archive - forum: https://archive.artoolkit.org/community/forums/
@@ -20,7 +20,7 @@ http://blog.llvm.org/2013/08/object-caching-with-kaleidoscope.html
 
 https://github.com/CreativeMachinesLab/aracna
 
-# WASM 
+# WASM
 
 [asm.js fallback path](https://github.com/kripken/emscripten/issues/5279)
 [Haskell](https://github.com/haskell-wasm/wasm)

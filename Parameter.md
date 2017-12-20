@@ -91,9 +91,9 @@ Method *GetInParameter1* Accessing the first input parameter of the operation.
 Method *GetInParameter2* Accessing the second input parameter of the operation.
 
 Method *GetInParameterRest* Accessing the rest.
- 
+
 Method *GetOperationGuid* Returns the GUID of the operation.
- 
+
 Method *GetOutParameter* Accessing the output parameter of the operation.
- 
+
 Method *Reconstruct* Reconstructs the operation.

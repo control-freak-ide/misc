@@ -48,7 +48,7 @@ We keep 'files' as default and primary storage for everything but we do add adap
 
 ## Machine Learning system
 
-We do introduce finally a deep learning system which acts adhoc wise on the system-bus. It can be trained and is there to provide  the machine facilitator. It consumes user meta (score -> weights) context, commands, interactive documentation and content meta information as inputs. 
+We do introduce finally a deep learning system which acts adhoc wise on the system-bus. It can be trained and is there to provide  the machine facilitator. It consumes user meta (score -> weights) context, commands, interactive documentation and content meta information as inputs.
 
 
 ## Interfaces
@@ -64,5 +64,3 @@ New inputs: voice and gesture recognition, GPIO protocols, local & remote APIs
 <hr/>
 
 That's it for now. Specifics will be outlined in the new 'CF Platform Software Functional Specifications' & 'CF-Platform Features Summary' - V3.1 document.
-
-
