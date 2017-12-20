@@ -26,6 +26,7 @@ just as the web-interface just for the CLI.
     + [New in the navigation tree](#new-in-the-navigation-tree)
       - [Behaviours](#behaviours)
   * [Inspector (New)](#inspector-new)
+  * [Behaviour Graphs (New, evtl. for v4 if I run out of time)](#behaviour-graphs-new-evtl-for-v4-if-i-run-out-of-time)
 
 <!-- tocstop -->
 
@@ -136,3 +137,22 @@ We will have a fixed 'Inspector' or 'Property Pane' which acts per selection or 
 
 A privileged user might also inspect the IDE's own components, being able
 to modify underlying XBlox scripts or behaviour graphs whereby changes can modify the 'vertical' globally itself. Again, since the IDE is built out of its own components, users might be notified with deployed instances of CF3 and they should be able to ignore certain changes promoted/deployed by the vertical designer/admin.
+
+## Behaviour Graphs (New, evtl. for v4 if I run out of time)
+
+As mentioned a few times, it makes sense now to introduce a new renderer for XBlox. Most power apps come with a block languages which enable wiring of blocks:
+
+![''](./node-red.png)
+
+My experience (1999-2010) about visual block-languages in this regard tells me that this model is over-simplified in certain complex scenarios. The problem with that single-type of wire is that a user more like would like to design data signal flow separately.
+I spoke with leading heads on this subject but we couldn't find consensus due to scope differences. Fow now, I will proceed with what is best to me:
+
+![''](./vpl-2terminal-types.png)
+
+or as extended or pushed by me during my time as game-engine developer (game authoring):
+
+![''](./virtools2.jpg)
+
+I prefer the latter since it gives me the needed control of signal and data flows. Additionally, data flows can be easily intercepted by 'Parameter Operations' which usually take 2 arguments and output a result. Such conversations are better displayed less distracting as shown here (see 'Multiplication' Parameter Operation) :
+
+![''](./virtools.gif)
