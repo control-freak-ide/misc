@@ -2,13 +2,16 @@
 
 CF3-IDE will have multiple renderers: Web & Terminal (CLI)
 
-# Web - UI
+## Web - UI
 
 Given the last 4 years of experience, we can simplify & unclutter the interface. As mentioned in the [overview](../Control-Freak-v3.md), Control-Freak is a 'vertical' or more precise a composition of loose 'components' with defaults and pre-defined layout definitions. A privileged user is free to modify these settings and save it as new 'vertical' in his new catalog of 'solutions'
 
-# Terminal - UI
+## Terminal - UI
 
 just as the web-interface just for the CLI.
+@Todo: Introduce - Space Projectors here
+
+# Overview - Changes/ New
 
 <!-- toc -->
 
@@ -95,4 +98,5 @@ The tree however allows all sort of standard commands:
 - Dereference
 - edit/ edit with,...
 - Save to library
-- Share
+- Share to global scopes
+- Publish / Preview / Simulate / Isolate,...
