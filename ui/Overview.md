@@ -66,7 +66,7 @@ or here a more advanced version which allows to place his preferred 'commands' t
 
 As often mentioned (Adobe Products), we will make use of a widely adopted way of showing more customized views for workflow steps as follows:
 
-![''](./command-palette-fusion.png)
+![''](./perspectives.png)
 
 Additionally, we extend this idea: each perspective shows the more relevant 'outlets' of items in the navigation tree. For instance, in the 'Visual Editor' perspective, we will allow connecting shown device commands to the scene's widgets (a popup will show and enumerates a widget's inputs like onClick).
 
