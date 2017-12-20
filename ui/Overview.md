@@ -1,3 +1,21 @@
+
+
+<!-- toc -->
+
+- [Control-Freak IDE v3 - Renderers](#control-freak-ide-v3---renderers)
+- [Web - UI](#web---ui)
+- [Terminal - UI](#terminal---ui)
+- [Key components](#key-components)
+  * [Command (aka actions) - Renderers](#command-aka-actions---renderers)
+    + [Toolbars](#toolbars)
+    + [Context - Menu](#context---menu)
+    + [Ribbon - Toolbar (New)](#ribbon---toolbar-new)
+    + [Command palette (New)](#command-palette-new)
+
+<!-- tocstop -->
+
+;
+
 # Control-Freak IDE v3 - Renderers
 
 CF3-IDE will have multiple renderers: Web & Terminal (CLI)
@@ -28,9 +46,9 @@ As in CF2 but we will allow more sophisticated widgets in context menus (New).
 
 - we will make the 'Ribbon' toolbar as default and provide a toggle between 'small' and 'large' icons (classic ribbon).
 
-'Large' Icons: !['large'](./ribbons.png). Attention, this is only a prototype. The ribbon renderer will be rewritten from scratch and should look more like this : !['large'](./ribbons-fusion.png)
+!['large'](./ribbons.png). Attention, this is only a prototype. The ribbon renderer will be rewritten from scratch and should look more like this : !['large'](./ribbons-fusion.png)
 
-- commands might provide a description or preview inline in most 'action renderers' as seen above.
+- commands might provide a description or preview inline in most 'command renderers' as seen above.
 
 - recent commands will be placed as well in each command renderer.
 
@@ -43,5 +61,3 @@ We will adopt widely used 'Command Palettes' :
 or here a more advanced version which allows to place his preferred 'commands' to the palette it self:
 
 ![''](./command-palette-fusion.png)
-
-
