@@ -122,3 +122,9 @@ Behaviours provide inputs, outputs and settings.
 **Events** : 'Show Custom Device Commands'. This behaviour could be for extending the IDE it self. The user can select a system event like 'Device became online' and append the IDEs toolbars with custom commands.
 
 Also, behaviours are basically operations, permanent or temp. A new feature called 'timeline' will show however all modifications, and a user can rollback changes to certain moment in time or more likely, modify behaviour parameters for a certain time which then get propagated forward again = parametric.
+
+**Usage**
+
+- Drag'n drop on selection or IDE area/components -> Opens Dialog if the target doesn't type match and offers the new 'Parameter Operations' to assist with conversions. Also settings might be shown in the wizard.
+
+- Command - Palette : Behaviours might get populated as commands, acts on selection, if none selected -> Opens Picker with narrowed type compatible targets.
