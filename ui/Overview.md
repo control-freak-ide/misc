@@ -128,3 +128,10 @@ Also, behaviours are basically operations, permanent or temp. A new feature call
 - Drag'n drop on selection or IDE area/components -> Opens Dialog if the target doesn't type match and offers the new 'Parameter Operations' to assist with conversions. Also settings might be shown in the wizard.
 
 - Command - Palette : Behaviours might get populated as commands, acts on selection, if none selected -> Opens Picker with narrowed type compatible targets.
+
+## Inspector (New)
+
+We will have a fixed 'Inspector' or 'Property Pane' which acts per selection.
+
+A privileged user might also inspect the IDE's own components, being able
+to modify underlying XBlox scripts or behaviour graphs whereby changes can modify the 'vertical' globally itself. Again, since the IDE is built out of its own components, users might be notified with deployed instances of CF3 and they should be able to ignore certain changes promoted/deployed by the vertical designer/admin.
