@@ -131,7 +131,7 @@ Also, behaviours are basically operations, permanent or temp. A new feature call
 
 ## Inspector (New)
 
-We will have a fixed 'Inspector' or 'Property Pane' which acts per selection.
+We will have a fixed 'Inspector' or 'Property Pane' which acts per selection or expression.
 
 A privileged user might also inspect the IDE's own components, being able
 to modify underlying XBlox scripts or behaviour graphs whereby changes can modify the 'vertical' globally itself. Again, since the IDE is built out of its own components, users might be notified with deployed instances of CF3 and they should be able to ignore certain changes promoted/deployed by the vertical designer/admin.
