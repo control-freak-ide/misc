@@ -38,3 +38,8 @@ https://github.com/CreativeMachinesLab/aracna
 
 @TODO: we need more trackers
 
+## JS sugar
+
+[Macros](https://www.sweetjs.org/)
+
+[FFI for Node.JS](https://github.com/tx4x/node-ffi)
