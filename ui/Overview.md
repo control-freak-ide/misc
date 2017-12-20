@@ -103,13 +103,13 @@ The tree however allows all sort of standard commands:
 - Share to global scopes
 - Publish / Preview / Simulate / Isolate,...
 
-### New in the navigation tree:
+### New in the navigation tree
 
 #### Behaviours
 
 Since the IDEs internals is build upon the ideas of 'Meta-Programming', everything can be introspected and enables sort of trackable self-modification, we can apply these patterns to enable parametric 'behaviours'.
 
-A behaviour can be a piece of code or more likely a piece of XBlox script. These scripts will be enumerated in the tree/palette and are extensible by the user. A beahviour can be applied to objects which match the desired target type (device, widget, events).
+A behaviour can be a piece of code or more likely a piece of XBlox script. These scripts will be enumerated in the tree/palette and are extensible by the user. A behaviour can be applied to objects which match the desired target type (device, widget, events).
 
 Behaviours provide inputs, outputs and settings.
 
@@ -119,5 +119,6 @@ Behaviours provide inputs, outputs and settings.
 
 **Devices** : 'Debug on Logly'. This behaviour will print all sorts of debug messages via an online service 'Logly'
 
-**Events** : 'Show Custom Commands'. This behaviour is for extending the IDE it self. The user can select a system event like 'Device became online' and append the IDEs toolbars with custom commands.
+**Events** : 'Show Custom Device Commands'. This behaviour could be for extending the IDE it self. The user can select a system event like 'Device became online' and append the IDEs toolbars with custom commands.
 
+Also, behaviours are basically operations, permanent or temp. A new feature called 'timeline' will show however all modifications, and a user can rollback changes to certain moment in time or more likely, modify behaviour parameters for a certain time which then get propagated forward again = parametric.
