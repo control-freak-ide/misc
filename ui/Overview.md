@@ -23,8 +23,9 @@ just as the web-interface just for the CLI.
     + [Command palette (New)](#command-palette-new)
   * [Perspectives (New)](#perspectives-new)
   * [Navigation (Changed/New)](#navigation-changednew)
-    + [New in the navigation tree:](#new-in-the-navigation-tree)
+    + [New in the navigation tree](#new-in-the-navigation-tree)
       - [Behaviours](#behaviours)
+  * [Inspector (New)](#inspector-new)
 
 <!-- tocstop -->
 
