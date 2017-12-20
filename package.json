@@ -1,0 +1,27 @@
+{
+  "name": "cf3-meta",
+  "version": "1.0.0",
+  "description": "Meta &amp; R&amp;D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/control-freak-ide/misc.git"
+  },
+  "author": "xblox <baumgart.guenter@gmail.com> (https://github.com/xblox)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/control-freak-ide/misc/issues"
+  },
+  "homepage": "https://github.com/control-freak-ide/misc#readme",
+  "modules": [{
+    "name": "design/enterprise_architect",
+    "options": {
+      "repository": "https://gitlab.com/xamiro/cf3-design.git",
+      "sync": true,
+      "keys":["~/.config/cf-sec"]
+    }
+  }]
+}
