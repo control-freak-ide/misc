@@ -19,9 +19,9 @@
 - Parameter Operations [Type-Types]
 - Commands
 - Types
-- Renderers [CLI|SPEECH|AR|VR|WEBKIT|TEXT|API|CUSTOM|CASCADE]
+- Renderers [CLI|SPEECH|AR|VR|WEBKIT|TEXT|API|CUSTOM|CASCADE|PROJECTOR]
 
-### Emits | Consumes 
+### Emits | Consumes
 
 For 3th parties only, we don't want to use 'events' anymore !!!
 

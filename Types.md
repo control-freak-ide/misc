@@ -1,6 +1,7 @@
 # Built-In
 
 ## Type
+
 - of type type
 
 A list of general public types & structures in CFv3
@@ -11,7 +12,7 @@ A list of general public types & structures in CFv3
 - Settings
 - Flags
 
-## Parameter 
+## Parameter
 
 - In
 - Out
