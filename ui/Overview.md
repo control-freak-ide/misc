@@ -23,6 +23,8 @@ just as the web-interface just for the CLI.
     + [Command palette (New)](#command-palette-new)
   * [Perspectives (New)](#perspectives-new)
   * [Navigation (Changed/New)](#navigation-changednew)
+    + [New in the navigation tree:](#new-in-the-navigation-tree)
+      - [Behaviours](#behaviours)
 
 <!-- tocstop -->
 
@@ -80,13 +82,13 @@ Additionally, we extend this idea: each perspective shows the more relevant 'out
 
 'Deployment/Builds' : Shows running build tasks
 
-'Services' : Acquired external services/APIS
+'Services' : Acquired external services/APIs
 
 'Design' : A dedicated view to manage widgets/scenes.
 
 'Instances' : Deployed local or remote instances of an authored CF3 application, providing facilities of remote updates or debugging.
 
-'Admin': A dedicated space to manage templates but also to customize the 'vertical' since the IDE is build from out it's own composed parts (eat your own dog food). This allows to customize toolbars, etc...
+'Admin': A dedicated space to manage templates but also to customize the 'vertical' since the IDE is build out of it's own composed parts (eat your own dog food). This allows to customize toolbars, etc...
 
 ## Navigation (Changed/New)
 
@@ -100,3 +102,22 @@ The tree however allows all sort of standard commands:
 - Save to library
 - Share to global scopes
 - Publish / Preview / Simulate / Isolate,...
+
+### New in the navigation tree:
+
+#### Behaviours
+
+Since the IDEs internals is build upon the ideas of 'Meta-Programming', everything can be introspected and enables sort of trackable self-modification, we can apply these patterns to enable parametric 'behaviours'.
+
+A behaviour can be a piece of code or more likely a piece of XBlox script. These scripts will be enumerated in the tree/palette and are extensible by the user. A beahviour can be applied to objects which match the desired target type (device, widget, events).
+
+Behaviours provide inputs, outputs and settings.
+
+**Examples**
+
+**Widgets** : 'Make blue' . This behaviour will make the selected widget's (by expression & direct selection) background 'blue'.
+
+**Devices** : 'Debug on Logly'. This behaviour will print all sorts of debug messages via an online service 'Logly'
+
+**Events** : 'Show Custom Commands'. This behaviour is for extending the IDE it self. The user can select a system event like 'Device became online' and append the IDEs toolbars with custom commands.
+
