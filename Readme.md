@@ -63,3 +63,20 @@ New inputs: voice and gesture recognition, GPIO protocols, local & remote APIs
 <hr/>
 
 That's it for now. Specifics will be outlined in the new 'CF Platform Software Functional Specifications' & 'CF-Platform Features Summary' - V3.1 document.
+
+
+## Networking
+
+I gonna apply the last years here too and there a few minor changes:
+
+- a main server application creates multiple contexts (multi-tenant)
+- a user/tenant had til now a space on the file-system and with the new online-service capabilities this storage will be extended to data-base adapters. A user will always be alway to sync the online copy with the local version
+- as mentioned, CF3 can be run entirely from terminal. The authoring or end-applications can have optional 'gui'-s as in VLC : "Add ...GUI". Such GUI can be "terminal", "blessed" (menues,...), web-ui (as we had til now) and of course full RPC interfaces to rollout your own interface.
+- Protocols become inheritable, in a way that 'HTTP' will be built on 'TCP' and so forth
+
+## Users
+
+- As we have online service interface, users (or sub users) can be created according to ACLs (controlled by the business model intentions of MediaMerge and Pearls-Media Ltd.)
+- There is a 'impose' feature to see applications as specified user
+
+
